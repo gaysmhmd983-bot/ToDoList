@@ -6,6 +6,8 @@ void main() =>
     runApp(MaterialApp(home: TodoApp(), debugShowCheckedModeBanner: false));
 
 class TodoApp extends StatefulWidget {
+  const TodoApp({super.key});
+
   @override
   _TodoAppState createState() => _TodoAppState();
 }
